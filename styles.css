@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+}
+
+body {
+    position: relative;
+    height: 194.5rem;
+    width: 37.5rem;
+    background: #FCFAF9;
+    margin: auto;
+
+}
+
+.bgdiv {
+    height: 194.5rem;
+    width: 37.5rem;
+    background-image: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 58.2rem 78rem;
+    background-position: left 5rem top -25rem;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    position: relative;
+    display: grid;
+    place-items: left;
+    top: -22rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*styling other elements*/
+
+/*header elements*/
+.headerlogo {
+    width: 14.6rem;
+    height: 3.2rem;
+    margin-top: 4rem;
+    margin-left: 2.4rem;
+}
+
+h1 {
+    height: 14.4rem;
+    width: 32.7rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #191826;
+    margin: 6.4rem 2.4rem 0rem 2.4rem;
+}
+
+header p {
+    height: 15.6rem;
+    width:32.7rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #191826;
+    margin: 2rem 2.4rem 0rem 2.4rem;
+}
+
+/*main elements*/
+.blackdiv {
+    width: 37.5rem;
+    height: 60rem;
+    background: #191826;
+    border-radius: 1.2rem;
+    margin: 16.6rem 0rem 0rem 0rem;
+    background-image: url('./assets/bg-pattern-2.svg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center top;
+}
+
+.mobile {
+    position: absolute;
+    width: 20.9rem;
+    height: 43rem;
+    left: 8.06rem;
+    top: 52.4rem;
+}
+
+.reddiv {
+    position: relative;
+    width: 37.5rem;
+    height: 54.6rem;
+    top: -22rem;
+    background: #FA7453;
+    border-radius: 1.2rem;
+}
+
+h2 {
+    width: 30.2rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: #FCFAF9;
+    margin: 4.8rem 3.7rem 0rem 3.6rem;
+}
+
+.reddiv p {
+    width: 30.2rem;
+    height: 14rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FCFAF9;
+    margin: 1.2rem 3.7rem 0rem 3.6rem;
+}
+
+.pricediv {
+    display: flex;
+    align-items: center;
+    margin: 3.6rem 0rem 3.2rem 4.2rem;
+}
+
+.span1 {
+    height: 5.2rem;
+    width: 7.9rem;
+    font-weight: 700;
+    font-size: 6.5rem;
+    line-height: 5.2rem;
+    color: #FCFAF9;    
+}
+
+.span2 {
+    height: 3.2rem;
+    width: 7rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: -0.02rem;
+    color: #FCFAF9;
+    margin-left: 1.6rem;
+    justify-content: center;
+}
+
+.iosdiv{
+    display: flex;
+    height: 6.1rem;
+    width: 29.6rem;
+    border-radius: 12px;
+    background-color: #191826;
+    align-items: center;
+    justify-content: center;
+    margin: 3.2rem 3.7rem 0rem 4.2rem;
+}
+
+.ioslink {
+    min-height: 3.2rem;
+    min-width: 11.7rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.018rem;
+    color: #FCFAF9;
+    margin-left: 0.8rem;
+    padding: 1.5rem 7rem 1.5rem 0rem;
+}
+
+.ios {
+    min-height: 1.5rem;
+    min-width: 1.7rem;
+    padding: 2rem 0rem 2.5rem 7.7rem;
+
+}
+
+.androiddiv {
+    display: flex;
+    height: 6.1rem;
+    width: 29.6rem;
+    border-radius: 12px;
+    background-color: #FCFAF9;
+    align-items: center;
+    justify-content: center;
+    margin: 1.6rem 3.7rem 4.8rem 4.2rem;
+}
+
+.androidlink {
+    display: inline-block;
+    min-height: 3.2rem;
+    min-width: 15.5rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    letter-spacing: -0.018rem;
+    color: #191826;
+    padding: 1.5rem 5rem 1.5rem 0rem;
+    margin-left: 1.114rem;
+}
+
+.android {
+    padding: 2.2rem 0rem 1.9rem 5.9rem;
+}
+
+/*footer elements*/
+.footerlogo {
+    height: 3.2rem;
+    width: 14.6rem;
+    margin: 6.4rem 0rem 0rem 2.5rem;
+}
+
+footer p {
+    height: 10.5rem;
+    width: 32.7rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #191826;
+    margin: 3.2rem 2.4rem 0rem 2.4rem;
+}
+
+.iconsdiv {
+    display: flex;
+    margin: 6.4rem 0rem 8rem 2.4rem;
+}
+
+.fbicon {
+    margin-right: 2rem;
+}
+
+.insticon {
+    margin-right: 2rem;
+}
+
+/* Breakpoint at 768px - Tablet*/
+
+@media screen and (min-width: 768px) {
+
+    body {
+        height: 178.1rem;
+        width: 76.8rem;
+        background-color: #FCFAF9;
+    }
+
+    .bgdiv {
+        height: 178.1rem;
+        width: 76.8rem; 
+        background-image: url(./assets/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-size: 128.3rem 110.8rem;
+        background-position: left -40rem top -20rem;
+    }
+
+    header {
+        background-image: url(./assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-size: 26.7rem 40rem;
+        background-position: left 53.5rem top -3.5rem;
+    }
+
+    footer {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        top: 0rem;
+    }
+
+    /*styling other elements*/
+
+    /*header elements*/
+    .headerlogo {
+        margin-top: 6.2rem;
+        margin-left: 3.9rem;
+    }
+
+    h1 {
+        height: 19.2rem;
+        width: 52rem;
+        font-size: 6.4rem;
+        line-height: 6.4rem;
+        margin: 9.5rem 0rem 2.8rem 3.9rem;
+    }
+    
+    header p {
+        height: 11.2rem;
+        width:51.4rem;
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+        margin: 2.8rem 0rem 0rem 3.9rem;
+    }
+
+    /*main elements*/
+    .blackdiv {
+        width: 69.6rem;
+        margin: 24.9rem 3.9rem 0rem 3.3rem;
+        background-image: url('./assets/bg-pattern-2.svg');
+        background-repeat: no-repeat;
+        background-size: 28rem 42rem;
+        background-position: right 18.7rem top -3rem;
+    }
+
+    .mobile {
+        width: 27rem;
+        height: 55.6rem;
+        left: 9.7rem;
+        top: 63.2rem;
+    }
+
+    .reddiv {
+        position: absolute;
+        width: 39.9rem;
+        top: 92rem;
+        left: 27.2rem;
+    }
+
+    h2 {
+        margin: 4.8rem 4.8rem 0rem 4.8rem;
+    }
+    
+    .reddiv p {
+        margin: 1.2rem 4.8rem 0rem 4.8rem;
+    }
+
+    .pricediv {
+        margin: 3.6rem 0rem 0rem 5.4rem;
+    }
+    
+    .iosdiv{
+        margin: 3.2rem 4.8rem 0rem 5.4rem;
+    }
+
+    .androiddiv {
+        margin: 1.6rem 4.8rem 0rem 5.4rem;
+    }
+
+    /*footer elements*/
+    .footerlogo {
+        height: 3.2rem;
+        width: 14.6rem;
+        margin: 18.3rem 0rem 0rem 3.415rem;
+    }
+    
+    footer p {
+        grid-column: 1;
+        grid-row: 2;
+        height: 7.9rem;
+        width: 36.6rem;
+        margin: 3.2rem 0rem 8.5rem 3.3rem;
+    }
+
+    .iconsdiv {
+        height: 2rem;
+        width: 10rem;        
+        display: flex;
+        grid-column: 2;
+        grid-row: 2;
+        margin: 6.4rem 0rem 0rem 11.5rem;
+    }
+
+}    
+
+     
+/* Breakpoint at 1440px - Desktop (as in the challenge)*/
+
+/* But I broke it at 1000px to take effect on my laptop :)*/
+
+@media screen and (min-width: 1000px) {
+    body {
+        height: 183.2rem;
+        width: 144rem;
+    }
+
+    .bgdiv {
+        height: 183.2rem;
+        width: 144rem;
+        background-image: url(./assets/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 191.3rem 205.8rem;
+        background-position: left -30rem top -30rem;
+    }
+    
+    header {
+        background-image: url(./assets/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-size: 26.7rem 40rem;
+        background-position: left 117rem top -3.5rem;
+    }
+
+    footer {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        top: 0rem;
+    }
+
+    /*styling other elements*/
+
+    /*header elements*/
+    .headerlogo {
+        margin-top: 6.2rem;
+        margin-left: 16.6rem;
+    }
+
+    h1 {
+        height: 17.6rem;
+        width: 101.5rem;
+        font-size: 8.8rem;
+        line-height: 8.8rem;
+        margin: 12.7rem 0rem 0rem 16.5rem;
+    }
+    
+    header p {
+        height: 10.2rem;
+        width:82.5rem;
+        font-size: 2rem;
+        line-height: 3.4rem;
+        margin: 4rem 0rem 0rem 16.5rem;
+    }
+
+        /*main elements*/
+    .blackdiv {
+        width: 111rem;
+        height: 60rem;
+        margin: 32.1rem 16.5rem 0rem 16.5rem;
+        background-image: url('./assets/bg-pattern-2.svg');
+        background-repeat: no-repeat;
+        background-size: 31.2rem 46.8rem;
+        background-position: right 48rem top -4rem;
+    }
+
+    .mobile {
+        width: 28rem;
+        height: 60.6rem;
+        left: 28.3rem;
+        top: 66.6rem;
+    }
+
+    .reddiv {
+        position: absolute;
+        width: 44.6rem;
+        height: 62.5rem;
+        top: 95rem;
+        left: 73.4rem;
+        z-index: 1;
+    }
+
+    h2 {
+        width: 33.3rem;
+        height: 5.2rem;
+        font-size: 4rem;
+        line-height: 5.2rem;
+        margin: 5.8rem 5.9rem 0rem 5.4rem;
+    }
+    
+    .reddiv p {
+        width: 33.3rem;
+        height: 17rem;
+        font-size: 2rem;
+        line-height: 3.4rem;
+        margin: 2.2rem 5.9rem 0rem 5.4rem;
+    }
+
+    .pricediv {
+        margin: 3.9rem 0rem 0rem 5.4rem;
+    }
+    
+    .iosdiv{
+        width: 33.3rem;
+        height: 6.1rem;
+        margin: 4.6rem 5.9rem 0rem 5.4rem;
+    }
+
+    .iosdiv:hover{
+        background-color: #66E2DC;
+    }
+
+    .androiddiv {
+        width: 33.3rem;
+        height: 6.1rem;
+        margin: 1.6rem 5.9rem 4.8rem 5.4rem;
+    }
+
+    .androiddiv:hover {
+        background-color: #FFB964;
+    }
+
+        /*footer elements*/
+    .footerlogo {
+        margin: 20.2rem 0rem 0rem 16.6rem;
+    }
+    
+    footer p {
+        grid-column: 2;
+        grid-row: 1;
+        margin: 20.2rem 0rem 9.1rem 0rem;
+    }
+
+    .iconsdiv {
+        grid-column: 3;
+        grid-row: 1;
+        margin: 23.1rem 0rem 0rem 21rem;
+    }
+
+    .fbicon:hover,
+    .insticon:hover,
+    .twicon:hover {
+       filter: invert(77%) sepia(38%) saturate(6435%) hue-rotate(323deg) brightness(97%) contrast(103%);
+    }
+}
