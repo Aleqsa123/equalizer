@@ -35,8 +35,8 @@ and here are mobile version screenshots: ![](./assets/mobile-screenshot.JPG)
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com]
-- Live Site URL: [https://your-live-site-url.com]
+- Solution URL: [https://github.com/Aleqsa123/equalizer]
+- Live Site URL: [https://aleqsa123.github.io/equalizer/]
 
 ## My process
 
